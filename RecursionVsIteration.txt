@@ -1,0 +1,26 @@
+Iteration and Recursion are the two methods of repeating a block of
+code, despite the similarities in the outputs they generate, they
+work differently. Iteration is the process of repeating some instructions
+until some condition prevents the further repetitation while Recursion is
+the continuous self calling of a function until a specific condition
+called the 'Base Case' finally terminates this process. Generally from
+the observations, it feels resonable to say that Iteration usually
+outperforms the Recursion. This conclusion is made by considering
+the following points about Recursion and Iteration:
+
+Iteration:
+1. Space complexity is usually lower.
+2. Time complexity is better compared to Recursion.
+3. There's no stack involved.
+4. No intermediate data needs to be stored in a stack.
+5. Needs to a function to be defined.
+6. faster.
+
+Recursion:
+1. space complexity is usually higher.
+2. time complexity is higher than that of Iteration.
+3. stack is involved.
+4. need to keep track of stack frames.
+5. doens't need a function.
+6. slower.
+

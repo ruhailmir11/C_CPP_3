@@ -1,0 +1,14 @@
+Recursive functions are the functions that call themselves,
+recursive functions are typically used to solve the class of problems
+that can be split into smaller sub problems, the solution is
+obtained by ultimately combining the solutions from these sub problems.
+Becase of the fact that these recursive functions divide the problems
+into sub problems, there is a need of storing the results of
+the previous executions into some data structure because the next
+computation is dependent on this result. The data structure
+that most fits this context is called the STACK. Whenever the function
+calls itself it creates a new element in the STACK with the current
+state of the function called a 'stack frame'. STACK is most suitable
+because, it follows the LIFO order, so the calling functions easily
+PUSH the state into the STACK and immediately POP when the
+function returns.

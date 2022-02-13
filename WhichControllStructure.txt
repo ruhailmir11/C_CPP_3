@@ -1,0 +1,4 @@
+In recursion, we always use the selection statements like 'if', 'switch'
+to define the terminating condition called the 'Base case'. Without these
+control structures, the function will keep calling itself continuously
+until it overflows the stack and terminates the whole program.
